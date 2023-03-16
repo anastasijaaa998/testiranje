@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>JavaScript test</title>
+  <link rel="stylesheet" href="index.css">
+</head>
+
+
+<body>
+
+  <div class='nav-brand'>
+    <a href='home.php'>
+      <img src='./Job-Employment-PNG-Picture.png' alt='Official logo' width='100px' height='70px'>
+    </a>
+  </div>
+
+  <h2>Employes</h2>
+
+
+  <div class="card1">
+    <img src="./3135789.png" alt="Slika" style="width: 50%">
+    <div class="container">
+      <h4><b>Anastasija Bajović</b></h4>
+      <p>Software developer</p>
+      <p>16.10.1998.</p>
+
+
+      <div class="card2">
+        <img src="./146005.png" alt="Slika" style="width:50%">
+        <div class="container">
+          <h4><b>Milica Marković</b></h4>
+          <p>Ecomomist</p>
+          <p>11.01.2001.</p>
+
+          <div class="card3">
+            <img src="./146007.png" alt="Slika" style="width: 50%">
+            <div class="container">
+              <h4><b>Strahinja Marinović</b></h4>
+              <p>Web designer</p>
+              <p>10.04.2003.</p>
+
+            </div>
+
+            <button id="myBtn">New Employe</button>
+            <div id="myModal" class="modal" style="display:none">
+              <form id="myForm">
+                <button class="btn btn-primary" onclick="$('#testModal').hide()">X</button> <br>           
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" /><br />
+                <label for="last-name">Last Name:</label>
+                <input type="text" id="last-name" name="last_name" /><br />
+                <label for="date-of-birth">Date of Birth:</label>
+                <input type="date" id="date-of-birth" name="date_of_birth" /><br />
+                <br />
+                <label for="id-type">ID Type:</label>
+                <select id="id-type" name="id_type"> <br />
+                  <option value="1">Software developer</option>
+                  <option value="2">Economist</option>
+                  <option value="3">Web designer</option> 
+                <label for="picture-url">Picture URL:</label> <br>
+               <br> <input type="text" id="picture-url" name="picture_url" /><br />
+               <button type="submit">Submit</button>
+              </form>
+            </div>
+
+            <div class="modal-content">
+             
+            </div>
+            <script src="index.js"></script>
+</body>
+
+
+</html>

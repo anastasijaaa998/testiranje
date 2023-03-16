@@ -1,0 +1,43 @@
+{
+   "employes": [
+    {
+       "id":111,
+       "name":"Anastasija",
+       "surname":"Bajović",
+       "date_of_birth":"16.10.1998",
+       "id_type":111,
+       "image": "3135789.png"
+    },
+    {
+       "id":222,
+       "name":"Milica",
+       "surname":"Marković",
+       "date_of_birth":"11.01.2001",
+       "id_type":222,
+       "image": "146005.png"
+    },
+    {
+       "id":333,
+       "name":"Strahinja",
+       "surname":"Marinović",
+       "date_of_birth":"10.04.2003",
+       "id_type":333,
+       "image":"146007.png"
+    }
+   ],
+   "types_employe":  
+   	[
+         {
+            "id":111,
+            "type":"software developer"
+         },
+         {
+            "id":222,
+            "type":"economist"
+         },
+         {
+            "id":333,
+            "type":"web designer"
+         }
+      ]
+}
